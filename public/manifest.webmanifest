@@ -1,0 +1,30 @@
+{
+  "name": "Campus Canteen",
+  "short_name": "Canteen",
+  "description": "Browse the canteen menu, order from your phone, get a pickup token and track your order live.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf7f2",
+  "theme_color": "#b45309",
+  "categories": ["food", "education"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Browse menu", "url": "/menu" },
+    { "name": "My orders", "url": "/orders" }
+  ]
+}

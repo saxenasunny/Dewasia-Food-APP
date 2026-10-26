@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Freebuff's own project marker - not part of the app
+.freebuff/
+
+# Supabase CLI scratch space
+supabase/.temp/
+supabase/.branches/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Environment - never commit real keys
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dev-server.log
+supabase-start.log
+
+# Local Supabase scratch files
+.sb.env
+.sb.err
+.opid
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test / coverage
+coverage/
+
+# Blueprint source document
+blueprint.txt

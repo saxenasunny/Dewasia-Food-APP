@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Campus Canteen">
+  <rect width="512" height="512" rx="112" fill="#b45309" />
+  <circle cx="256" cy="268" r="148" fill="#fef3c7" />
+  <path
+    d="M132 268h248a124 124 0 0 1-248 0Z"
+    fill="#b45309"
+  />
+  <path
+    d="M164 246c0-51 41-92 92-92s92 41 92 92"
+    fill="none"
+    stroke="#78350f"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+  <rect x="238" y="118" width="36" height="46" rx="14" fill="#78350f" />
+  <path d="M150 300h212" stroke="#fbbf24" stroke-width="16" stroke-linecap="round" />
+  <path d="M176 336h160" stroke="#fcd34d" stroke-width="14" stroke-linecap="round" />
+</svg>
